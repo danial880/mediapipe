@@ -18,7 +18,7 @@ Install the following dependencies.
 Install and link OpenCV with mediapipe.
 
 ```bash
-    $ sudo bash setup_opencv.sh
+    mediapipe$ sudo bash setup_opencv.sh
 ```
 #### Step3
 
