@@ -10,9 +10,9 @@ Install the following dependencies.
     $ sudo apt install python3-dev
     $ sudo apt install -y protobuf-compiler
 
-    # If you need to build opencv from source.
+    # Needed to build opencv from source.
     $ sudo apt install cmake
-    ```
+```
 #### Step2
 
 Install and link OpenCV with mediapipe.
@@ -24,14 +24,15 @@ Install and link OpenCV with mediapipe.
 
 Install the required Python packages.
 
-    ```bash
+```bash
     mediapipe$ pip3 install -r requirements.txt
-    ```
+```
 #### Step4
 
 Generate and install MediaPipe package.
 
-    ```bash
+```bash
     mediapipe$ python3 setup.py gen_protos
     mediapipe$ python3 setup.py install --link-opencv
-    ```
+```
+
