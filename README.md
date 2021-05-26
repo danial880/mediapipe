@@ -1,6 +1,6 @@
 ![MediaPipe](docs/images/mediapipe_small.png)
 
-## Installation
+## Python GPU Installation
 
 #### Step1
 
